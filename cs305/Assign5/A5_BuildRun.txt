@@ -1,0 +1,5 @@
+0;136;0c./masm_mrd < A5_AddInput.asm > A5_AddInput.obj
+used the Prof. masm from ~bill to be safe, but using my own .dat its just ./masm
+
+./mic1 prom_mrd.dat A5_AddInput.obj 0 2048
+again used ~bill .dat to be safe

@@ -1,0 +1,4 @@
+Was unsure what commenting symbols to use on this file, comments in this file
+
+Line 32: This and lines 33 and 34 define MULT, RSHIFT, and DIV for the file
+Line 87: This and lines 89 and 91 define how the comand MULT, RSHIFT and DIV can be written in a .asm

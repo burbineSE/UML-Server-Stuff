@@ -1,0 +1,59 @@
+Dozen(s): 10
+Queue Depth: 35
+Consumers: 1
+Loops: 20
+Deadlocks: 1
+
+Dozen(s): 10
+Queue Depth: 35
+Consumers: 2
+Loops: 20
+Deadlocks: 3
+
+Dozen(s): 10
+Queue Depth: 35
+Consumers: 3
+Loops: 20
+Deadlocks: 8
+
+Dozen(s): 10
+Queue Depth: 35
+Consumers: 4
+Loops: 20
+Deadlocks: 9
+
+Dozen(s): 10
+Queue Depth: 35
+Consumers: 5
+Loops: 20
+Deadlocks: 9
+
+Dozen(s): 10
+Queue Depth: 35
+Consumers: 6
+Loops: 20
+Deadlocks: 15
+
+Dozen(s): 10
+Queue Depth: 35
+Consumers: 7
+Loops: 20
+Deadlocks: 15
+
+Dozen(s): 10
+Queue Depth: 35
+Consumers: 8
+Loops: 20
+Deadlocks: 17
+
+Dozen(s): 10
+Queue Depth: 35
+Consumers: 9
+Loops: 20
+Deadlocks: 17
+
+Dozen(s): 10
+Queue Depth: 35
+Consumers: 10
+Loops: 20
+Deadlocks: 18

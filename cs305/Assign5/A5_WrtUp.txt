@@ -1,0 +1,8 @@
+Degree of Success: 95%
+The program works, but I feel that it is not a efficient as it could be, 
+looking back some of the pieces are redundant, but fear for breaking the 
+program are warding me from getting elbow deep in it. From what I can tell 
+there are no issues and no bugs.
+
+Email: Christopher_Burbine@student.uml.edu 
+

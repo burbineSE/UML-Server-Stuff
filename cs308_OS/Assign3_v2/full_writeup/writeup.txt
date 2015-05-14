@@ -1,0 +1,37 @@
+Degree of success: %85
+
+Discussion: Over all think I am doing things mostly right, the main issue is 
+with my out when using the .sh file. It seems to work as one would expect for 
+the first 5 consumers, but after that point there is a problem my code 
+continues to make consumers (usually hitting somewhere around 20-30) and the 
+run deadlocks. This occurs on every run no matter how many consumers I define or
+how deep the queue is. I can still use the output in my full right up, but I 
+cannot guarantee that my data will conform as it is to expected. As for the 
+deadlock amount they tended to run from 0 to 2 deadlocks at three loops. Though
+ for whatever reason getting the signal deadlocks seemed few and far between.
+
+Update Discussion: I've managed to fix the issues I was having. From what I can 
+tell my code would sometimes leave some memory unreleased leaving some consumers
+ running even after the loop and finished. I am not sure what is causing this 
+but I have manged to get new runs with out the extra consumers deadlocking 
+everything. I have raised my completion percentile from 75% to 85% as something
+ is still wrong with my code.
+
+Queue Depth Experimentation Results: The line is linear as one might expect. As
+ the queue became larger and larger it became easier for the loops to run 
+without deadlock. This numbers may off slightly because I had to count the 
+deadlocks manually as the passed by due to the issue I was having with extra 
+consumers.
+
+Consumer Number Experimentation: For this part of the assignment I found my 50%
+ deadlock to be about a 35 queue depth, this is where I found the split to be 
+the most even most of the time. Similar to when I changed the queue depth the 
+line I plotted is linear, however it slopes up instead of down. This indicated 
+to me that as the number of consumers go up it becomes harder and harder for 
+the producer to fill all their demands resulting in more frequent deadlocks. I 
+am unsure I have done this correctly. I was unsure if the 50% deadlock meant the
+ unique value at each consumer number that resulted in a 50% deadlock or if it 
+was 50% for as depth of 50. I user the latter as that what assignment page seems
+ to be asking but I am not 100% sure on this.
+
+Email: christopher_burbine@student.uml.edu

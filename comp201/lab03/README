@@ -1,0 +1,14 @@
+Chris Burbine
+91.201
+lab03
+2/10/2012
+
+Changes for out put work, did it by setting calculateCost in all the .h files
+to virtual, then in the printPackageCosti used a base-class pointer to call the
+differnt types of calculateCost form TwoDayPackage.h and OvernightPackage.h. 
+Output if a bit wierd, in the sense that withthe amount of lines being output
+is dosent fit on my screen.
+
+PS: forgot about the nameing of the PDF, named PackagePDF.pdf in this case
+
+PSS: Still haveing makefile trobles, works usinf a.out

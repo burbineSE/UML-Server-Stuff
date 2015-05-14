@@ -1,0 +1,2 @@
+Build: ./masm < assign3Fib_v2.asm > assign3Fib_v2.obj
+Run:  ./mic1 prom.dat assign3Fib_v2.obj 0 2048

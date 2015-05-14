@@ -1,0 +1,559 @@
+This slice of data was taken from the top half (higher thread number) of my 
+output.txt. It consists of threads (consumers) #43-47 with the first ten (0-9)
+ entries from each thread. One issue that may be apparent from looking at this
+ file is that some of the flavors have repeat numbers within them. At the moment
+ I am unsure if this is due to error in the actual work the program does or if 
+it has to with the way that it was printed. That being said from my observations
+ there does not appear to be any repeats in consecutive dozens only occasionally
+ within the same flavor. One other issue, that does not appear in this file, but
+ can be seen in the output when the code is run, is that the first entire in the
+ output.txt has a thread number that is excitingly higher than the other 
+threads. On my system at least it is always thread #134518703 and upon further 
+investigation it appears to be the 50th thread. I am unsure at this time why it 
+has a thread number so large. 
+-----------------------------------------------------------------------------
+Consumer thread #: 43   time: 9:46:11.220722    dozen #: 0
+
+Glazed
+        310     314     320
+Jelly
+        199     201     204     208     203
+Cruller
+        397     401     402     403
+Chocolate Dip
+
+_______________________________________
+Consumer thread #: 43   time: 9:46:11.220722    dozen #: 1
+
+Glazed
+        424     425     424     424     430 /*!!!Repeat can be seen here!!!*/
+Jelly
+        438     440     441
+Cruller
+        56      72      80
+Chocolate Dip
+        352
+_______________________________________
+Consumer thread #: 43   time: 9:46:11.220722    dozen #: 2
+
+Glazed
+        102     105     106     106
+Jelly
+        255
+Cruller
+        319
+Chocolate Dip
+        148     149     153     154     153     154
+_______________________________________
+Consumer thread #: 43   time: 9:46:11.220722    dozen #: 3
+
+Glazed
+        302
+Jelly
+        210     211     254
+Cruller
+        7       7       8       13
+Chocolate Dip
+        413     415     414     404
+_______________________________________
+Consumer thread #: 43   time: 9:46:11.220722    dozen #: 4
+
+Glazed
+        431
+Jelly
+        416     416     416     418
+Cruller
+        322     356     360     362     363
+Chocolate Dip
+        298     350
+_______________________________________
+Consumer thread #: 43   time: 9:46:11.220722    dozen #: 5
+
+Glazed
+        229     333
+Jelly
+        445     444     445     450
+Cruller
+        96      120     122     123
+Chocolate Dip
+        151     194
+_______________________________________
+Consumer thread #: 43   time: 9:46:11.220722    dozen #: 6
+
+Glazed
+
+Jelly
+        464     466
+Cruller
+        374     375     89      90      91      89
+Chocolate Dip
+        156     199     200     201
+_______________________________________
+Consumer thread #: 43   time: 9:46:11.220722    dozen #: 7
+
+Glazed
+        190     231
+Jelly
+        480     490     490
+Cruller
+        129     130     127     130     90      91
+Chocolate Dip
+        176
+_______________________________________
+Consumer thread #: 43   time: 9:46:11.220722    dozen #: 8
+
+Glazed
+        340     341     342
+Jelly
+        502     509
+Cruller
+        388     389     390     391     385
+Chocolate Dip
+        173     174
+_______________________________________
+Consumer thread #: 43   time: 9:46:11.220722    dozen #: 9
+
+Glazed
+        105     106     180
+Jelly
+        528     528
+Cruller
+        270     377     378     385
+Chocolate Dip
+        169     176     177
+_______________________________________
+
+--------------------------------------------------------------------------------
+Consumer thread #: 44   time: 9:46:11.220778    dozen #: 0
+
+Glazed
+        337     337     334
+Jelly
+        261     262     267
+Cruller
+        472
+Chocolate Dip
+        190     197     198     203     204
+_______________________________________
+Consumer thread #: 44   time: 9:46:11.220778    dozen #: 1
+
+Glazed
+        5       7       9
+Jelly
+        488     21      33      46      55
+Cruller
+        100     93
+Chocolate Dip
+        419     405
+_______________________________________
+Consumer thread #: 44   time: 9:46:11.220778    dozen #: 2
+
+Glazed
+        145
+Jelly
+        401     403     404     405
+Cruller
+        370     371     372     373
+Chocolate Dip
+        188     189     193
+_______________________________________
+Consumer thread #: 44   time: 9:46:11.220778    dozen #: 3
+
+Glazed
+        324
+Jelly
+        421     441     442     477     135     207
+Cruller
+        85      87      89      94
+Chocolate Dip
+        146
+_______________________________________
+Consumer thread #: 44   time: 9:46:11.220778    dozen #: 4
+
+Glazed
+        231     420
+Jelly
+        430     443     449     455     463     472     473
+Cruller
+        368
+Chocolate Dip
+        162     155
+_______________________________________
+Consumer thread #: 44   time: 9:46:11.220778    dozen #: 5
+
+Glazed
+        305     323     324     326
+Jelly
+        493     498
+Cruller
+        372     373     374
+Chocolate Dip
+        190     181     192
+_______________________________________
+Consumer thread #: 44   time: 9:46:11.220778    dozen #: 6
+
+Glazed
+        109     110     111     112
+Jelly
+        509     513
+Cruller
+        378     379
+Chocolate Dip
+        193     197     168     199
+_______________________________________
+Consumer thread #: 44   time: 9:46:11.220778    dozen #: 7
+
+Glazed
+        237     238     302     303
+Jelly
+        529     532     532
+Cruller
+        263     263
+Chocolate Dip
+        214     176     174
+_______________________________________
+Consumer thread #: 44   time: 9:46:11.220778    dozen #: 8
+
+Glazed
+        143     144     145     146     147     148
+Jelly
+        551     551
+Cruller
+        391
+Chocolate Dip
+        217     220     221
+_______________________________________
+Consumer thread #: 44   time: 9:46:11.220778    dozen #: 9
+
+Glazed
+        233     235     91      93      94
+Jelly
+        564     569
+Cruller
+        393     394     394
+Chocolate Dip
+        181     182
+
+-------------------------------------------------------------------------------
+Consumer thread #: 45   time: 9:46:11.220844    dozen #: 0
+
+Glazed
+        422
+Jelly
+        418     420     421     422     423     423
+Cruller
+        15      17      54
+Chocolate Dip
+        331     332
+_______________________________________
+Consumer thread #: 45   time: 9:46:11.220844    dozen #: 1
+
+Glazed
+        65      66      66
+Jelly
+        202     203
+Cruller
+        251     252     253     254
+Chocolate Dip
+        51      60      85
+_______________________________________
+Consumer thread #: 45   time: 9:46:11.220844    dozen #: 2
+
+Glazed
+        188
+Jelly
+        108
+Cruller
+        409     411     421     425
+Chocolate Dip
+        294     295     293     350     351     354
+_______________________________________
+Consumer thread #: 45   time: 9:46:11.220844    dozen #: 3
+
+Glazed
+        102     105
+Jelly
+        427     442     442     461
+Cruller
+        271     271     272     311     257
+Chocolate Dip
+        153
+_______________________________________
+Consumer thread #: 45   time: 9:46:11.220844    dozen #: 4
+
+Glazed
+        100     140
+Jelly
+        472     473     479
+Cruller
+        128     312
+Chocolate Dip
+        194     195     193     194     194
+_______________________________________
+Consumer thread #: 45   time: 9:46:11.220844    dozen #: 5
+
+Glazed
+        180     238     239     240
+Jelly
+        488     491
+Cruller
+        98      99      100     262
+Chocolate Dip
+        154     188
+_______________________________________
+Consumer thread #: 45   time: 9:46:11.220844    dozen #: 6
+
+Glazed
+        96      97
+Jelly
+        507     508     509     517     522
+Cruller
+        78      79      386     379
+Chocolate Dip
+        201
+_______________________________________
+Consumer thread #: 45   time: 9:46:11.220844    dozen #: 7
+
+Glazed
+        236     236     237     327
+Jelly
+        530     535
+Cruller
+        380     383
+Chocolate Dip
+        206     207     208     209
+_______________________________________
+Consumer thread #: 45   time: 9:46:11.220844    dozen #: 8
+
+Glazed
+        76      77
+Jelly
+        544
+Cruller
+        108     109     263     263     264
+Chocolate Dip
+        175     176     177     178
+_______________________________________
+Consumer thread #: 45   time: 9:46:11.220844    dozen #: 9
+
+Glazed
+        110     140     148     149
+Jelly
+        553     552
+Cruller
+        109     111     265
+Chocolate Dip
+        182     177     178
+_______________________________________
+
+-------------------------------------------------------------------------------
+Consumer thread #: 46   time: 9:46:11.220902    dozen #: 0
+
+Glazed
+        430
+Jelly
+        442     445     409
+Cruller
+        82      83      82      83      84      85
+Chocolate Dip
+        353     355
+_______________________________________
+Consumer thread #: 46   time: 9:46:11.220902    dozen #: 1
+
+Glazed
+        98      100     90      94      95      104
+Jelly
+        220     221     222     206
+Cruller
+        271     299
+Chocolate Dip
+
+_______________________________________
+Consumer thread #: 46   time: 9:46:11.220902    dozen #: 2
+
+Glazed
+        228     234
+Jelly
+        205     206
+Cruller
+        487     490
+Chocolate Dip
+        411     413     415     416     413     414
+_______________________________________
+Consumer thread #: 46   time: 9:46:11.220902    dozen #: 3
+
+Glazed
+        424     425     426
+Jelly
+
+Cruller
+        320     321     321     321
+Chocolate Dip
+        195     196     186     260     261
+_______________________________________
+Consumer thread #: 46   time: 9:46:11.220902    dozen #: 4
+
+Glazed
+        59      98      99
+Jelly
+        425
+Cruller
+        16      56      276     275
+Chocolate Dip
+        198     261     297     350
+_______________________________________
+Consumer thread #: 46   time: 9:46:11.220902    dozen #: 5
+
+Glazed
+        150     146     147     148     151     231
+Jelly
+        439     445
+Cruller
+        96      97      101     373
+Chocolate Dip
+
+_______________________________________
+Consumer thread #: 46   time: 9:46:11.220902    dozen #: 6
+
+Glazed
+        326     329     431
+Jelly
+        461
+Cruller
+        373     371     372
+Chocolate Dip
+        202     204     204     192     154
+_______________________________________
+Consumer thread #: 46   time: 9:46:11.220902    dozen #: 7
+
+Glazed
+        149
+Jelly
+        473     487     494
+Cruller
+        59      68
+Chocolate Dip
+        193     204     205     205     206     207
+_______________________________________
+Consumer thread #: 46   time: 9:46:11.220902    dozen #: 9
+
+Glazed
+        143     136     137
+Jelly
+        521     521     524     525
+Cruller
+        104     105     387     388
+Chocolate Dip
+        161
+_______________________________________
+
+-------------------------------------------------------------------------------
+Consumer thread #: 47   time: 9:46:11.220966    dozen #: 0
+
+Glazed
+        495     496     3
+Jelly
+        483
+Cruller
+        90      94      95      96      97
+Chocolate Dip
+        410     413     417
+_______________________________________
+Consumer thread #: 47   time: 9:46:11.220966    dozen #: 1
+
+Glazed
+        144     143
+Jelly
+        393     384     385
+Cruller
+        370     364     365
+Chocolate Dip
+        184     185     186     187
+_______________________________________
+Consumer thread #: 47   time: 9:46:11.220966    dozen #: 2
+
+Glazed
+        326     327     321
+Jelly
+        406
+Cruller
+        110     107     116
+Chocolate Dip
+        92      93      97      143     145
+_______________________________________
+Consumer thread #: 47   time: 9:46:11.220966    dozen #: 3
+
+Glazed
+        502     492
+Jelly
+        420     421
+Cruller
+        368     375     377
+Chocolate Dip
+        413     34      36      37      189
+_______________________________________
+Consumer thread #: 47   time: 9:46:11.220966    dozen #: 4
+
+Glazed
+        501     499     45
+Jelly
+        442     454     462
+Cruller
+        124     125     256     57      58
+Chocolate Dip
+        189
+_______________________________________
+Consumer thread #: 47   time: 9:46:11.220966    dozen #: 5
+
+Glazed
+        105     106     107
+Jelly
+        473     481     482     490
+Cruller
+        125     375     376
+Chocolate Dip
+        153     180
+Consumer thread #: 47   time: 9:46:11.220966    dozen #: 6
+
+Glazed
+        335     337     425
+Jelly
+        502     505     505
+Cruller
+        387     132
+Chocolate Dip
+        168     169     198     199
+_______________________________________
+Consumer thread #: 47   time: 9:46:11.220966    dozen #: 7
+
+Glazed
+        102     96      99
+Jelly
+        510     509     523
+Cruller
+        131     132     135
+Chocolate Dip
+        208     211     200
+_______________________________________
+Consumer thread #: 47   time: 9:46:11.220966    dozen #: 8
+
+Glazed
+        329     390     94
+Jelly
+        538     539     548     549
+Cruller
+        380     381     382     389     390
+Chocolate Dip
+
+_______________________________________
+Consumer thread #: 47   time: 9:46:11.220966    dozen #: 9
+
+Glazed
+        149     150     152     134
+Jelly
+        552     552
+Cruller
+        264     267     271     384
+Chocolate Dip
+        204     207
+_______________________________________

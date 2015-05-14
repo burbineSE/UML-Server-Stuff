@@ -1,0 +1,24 @@
+Chris Burbine
+91.201
+lab04
+3/2/2012
+
+a) Because we dont know how to create a larger int, we have to use arrays
+in order to layer things in with just ints. Any int, wheather called as an
+int or a string, we layer each part of the number into an array and add each
+indavisual part just as we would on paper, add the tens carry the one, add the
+hundereds carrya the one and so on. This also works with strings by calling 
+the overloaded +. 
+
+b) The size of the Huge int can not be greater than 30 digits, at this point 
+it does not have the implementation to cin, making it so that info cannot 
+be placed the user. Main issue being that the program as it is does not have
+many operators, so it can only add.
+
+c) Something wrong with the mult operator, dont know if my "math" in the loops
+are corect because the print out gives me nothing, just black space.
+
+d) Not enough time to finish
+
+e) Works
+

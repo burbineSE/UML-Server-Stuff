@@ -1,0 +1,12 @@
+Degree of Success: 95%
+
+Email: christopher_burbine@student.uml.edu
+
+Overall I believe I did the assignment to completion for the most part. There 
+are two things that I am a little uneasy about the first is that some of my 
+i-node numbers that are printing have a negative number, I not sure if this is
+ an issue as I don't recall any discussion about this in class. The second being
+ the was my program prints its info, mainly that its rather inefficient. Other 
+that these concerns my code appears to run correctly. 
+
+Output can be seen in output.txt.

@@ -1,0 +1,28 @@
+Degree of Success: 40%
+
+Overall I did not finish the whole assignment, mostly because I never got a 
+version of the buddy system working. Besides this I believe that I have the best
+ fit and first fit systems working for the most part though they are not set up 
+in the same way as we were told to. My code does not possess the req_array as 
+outline in the data structs text file and thus my stucts do not hold as much 
+information about them and their neighbors. In the context of the assignment the
+ code is fine, but out side the confines of the assignment this code is not very
+ versatile. 
+My output seems to be along the same lines as shown in class, but I am unsure if
+ it is exactly the same results, which I believe is a problem. Form what I 
+remember my results should be the same as any other best/first fits that parse 
+it and if my results are off there my be an issue.
+
+Below are my overall results and some commands needed for my code:
+
+First fit at 512KB: ./firstbest 1 524288
+First fit at 1MB:   ./firstbest 1 1048576
+Best fit at 512KB:  ./firstbest 2 524288 
+Best fit at 1MB:    ./firstbest 2 1048576 
+
+First fit 1MB:      Total Allocations 490 of 500
+First fit 512KB:    Total Allocations 370 of 500
+Best fit 1MB:       Total Allocations 491 of 500
+Best fit 512KB:     Total Allocations 372 of 500
+Buddy system 1MB:   N/A
+Buddy system 512KB: N/A

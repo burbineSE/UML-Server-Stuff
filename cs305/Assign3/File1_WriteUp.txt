@@ -1,0 +1,6 @@
+Degree of Success: 95%
+The program works fine, always could find more ways to optimize though. Take 
+note that I worked with a few people on this and they aided me with this 
+project so some of the code will similar.
+
+Email: Christopher_Burbine@student.uml.edu

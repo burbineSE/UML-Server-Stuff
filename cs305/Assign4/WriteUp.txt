@@ -1,0 +1,14 @@
+Degree of success: from just looking at the .mc arpund a 90%, but
+I am unsure because of some technial issues
+
+When I attempt to create an .obj file to test one of the test files an error 
+message pops up stating something to the effect of "Unrecognized token is MULT".
+ I am unsure what this means on my end because I can't find anything wrong with 
+my .c or .ll files. The output is also strange, stating that "Read in 0 machine 
+instructions". The PC is also unchanged remaining at 1. Whether this is 
+something wrong with my .c, .ll, or my .mc I am unsure. If I had to guess it 
+would be the .c, but I cannot find fault with it.
+As for my .mc I cannot test it, but from just reviewing the code it seems to be correct. 
+
+Email: Christopher_Burbine@student.uml.edu
+

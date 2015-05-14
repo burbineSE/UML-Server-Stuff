@@ -1,0 +1,36 @@
+Degree of success: 80%
+
+General Discussion: Overall I feel I'm doing the assignment mostly correct, but 
+did have some concerns/issues with some of my results, I have voiced them in the
+ section below. It is because of those issues/concerns that I have marked my 
+degree of success as 80%. Just as a note at the top of this write up I have gone
+ with a different printing format in my output.txt. My main reasoning behind 
+this is that I found my format much easier to display than the format given in 
+the A4 pdf.
+
+Output Discussion: see sample_output.txt
+
+50% Deadlock: This took a bit more time than I expected to find, mostly because 
+I started my search around the 50 queue size, where it is set be default in the 
+helper code. After a hand full of trail runs with small increments to the queue 
+size (55, 60, 65, 70, etc.) I wasn't having much luck. I then began taking large
+ leaps in queue size until I settled at a 600 queue size which seemed to give me
+ a consistent 50% deadlock (the curve can be seen in 50DeadlockChart.png). Just 
+as a note, did jump quite a long way in queue size in this process (from some 
+where around 200 to about 500) so I am unsure if my queue size is much larger 
+than it needs to be. The result is a linear downward sloping line on the graph.
+
+Dozen Change Experiment (under DozenChangeChart.png): The results of this 
+experiment are a little less predictable than in the 50% deadlock test as the 
+line created by my tests is much steeper and a bit more jagged. The direction of
+ the slope I found was to be expected, as number of dozens of donuts goes up it 
+becomes harder and harder to fill those orders given static queue size. Thus as 
+we got into the 300 dozen range we hit an average of 70% deadlock and in the 100
+ range we only deadlock around 15% of the time. I am somewhat worried with my 
+results as there appears to be a fairly large spike in deadlock percentage when 
+we go from 150 dozens to 200 dozens (from 20% to 50%). I am unsure if this was 
+to be expected or if this was just how the deadlocks happened to fall when I did
+ my runs, but either way I would have expected less of a spike as we moved along
+ the curve.
+
+Email: Christopher_Burbine@student.uml.edu

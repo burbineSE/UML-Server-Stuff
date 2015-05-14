@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song-libary>
+    <metadata xmlns="http://musicbrainz.org/ns/mmd-2.0#">
+        <recording id="e14cb4f2-530e-4848-bcc1-e8683e1ee79f">
+            <title>Joker and the Theif</title>
+            <artist-credit>
+                <name-credit>
+                    <artist id="f0c8f75f-8736-4b1d-b312-9349fcff321d">
+                        <name>Wolfmother</name>
+                        <sort-name>Wolfmother</sort-name>
+                    </artist>
+                </name-credit>
+            </artist-credit>
+            <release-list count="1">
+                <release id="b0acea88-c719-412b-8eae-33457b3690a5">
+                    <title>2007-03-06: Kool Haus, Toronto, ON, Canada</title>
+                    <status>Bootleg</status>
+                    <quality>normal</quality>
+                    <text-representation>
+                        <language>eng</language>
+                        <script>Latn</script>
+                    </text-representation>
+                    <artist-credit>
+                        <name-credit>
+                            <artist id="f0c8f75f-8736-4b1d-b312-9349fcff321d">
+                                <name>Wolfmother</name>
+                                <sort-name>Wolfmother</sort-name>
+                            </artist>
+                        </name-credit>
+                    </artist-credit>
+                
+                </release>
+            </release-list>
+        </recording>
+    </metadata>
+    <metadata xmlns="http://musicbrainz.org/ns/mmd-2.0#">
+        <recording id="d6971656-c5ff-4699-a24d-05c1a694eca7">
+            <title>Bring the Pain</title>
+            <length>219373</length>
+            <artist-credit>
+                <name-credit>
+                    <artist id="44f42386-a733-4b51-8298-fe5c807d03aa">
+                        <name>Mindless Self Indulgence</name>
+                        <sort-name>Mindless Self Indulgence</sort-name>
+                    </artist>
+                </name-credit>
+            </artist-credit>
+            <release-list count="4">
+                <release id="1fc5f451-4ccc-460c-9be2-3080538fce31">
+                    <title>Take a Bite Outta Rhyme</title>
+                    <status>Official</status>
+                    <quality>normal</quality>
+                    <text-representation>
+                        <language>eng</language>
+                        <script>Latn</script>
+                    </text-representation>
+                    <artist-credit>
+                        <name-credit>
+                            <artist id="89ad4ac3-39f7-470e-963a-56509c546377">
+                                <name>Various Artists</name>
+                                <sort-name>Various Artists</sort-name>
+                                <disambiguation>add compilations to this artist</disambiguation>
+                            </artist>
+                        </name-credit>
+                    </artist-credit>
+                    <date>2000-10-24</date>
+                    <country>US</country>
+                </release>
+                <release id="3cd2629c-d6bf-45c9-9cb6-c13b28507345">
+                    <title>Tight</title>
+                    <status>Official</status>
+                    <quality>normal</quality>
+                    <text-representation>
+                        <language>eng</language>
+                        <script>Latn</script>
+                    </text-representation>
+                    <artist-credit>
+                        <name-credit>
+                            <artist id="44f42386-a733-4b51-8298-fe5c807d03aa">
+                                <name>Mindless Self Indulgence</name>
+                                <sort-name>Mindless Self Indulgence</sort-name>
+                            </artist>
+                        </name-credit>
+                    </artist-credit>
+                    <date>1999-04-06</date>
+                    <country>US</country>
+                    <barcode>075596239028</barcode>
+                </release>
+                <release id="8852d4e0-51b2-4ab3-9d49-45b597e7b63b">
+                    <title>Bring the Pain / Panty Shot</title>
+                    <status>Promotion</status>
+                    <quality>normal</quality>
+                    <text-representation>
+                        <language>eng</language>
+                        <script>Latn</script>
+                    </text-representation>
+                    <artist-credit>
+                        <name-credit>
+                            <artist id="44f42386-a733-4b51-8298-fe5c807d03aa">
+                                <name>Mindless Self Indulgence</name>
+                                <sort-name>Mindless Self Indulgence</sort-name>
+                            </artist>
+                        </name-credit>
+                    </artist-credit>
+                    <date>1999</date>
+                    <country>US</country>
+                </release>
+                <release id="f6030f6d-73f1-4722-986b-219b64717fd5">
+                    <title>Thank God</title>
+                    <status>Promotion</status>
+                    <quality>normal</quality>
+                    <text-representation>
+                        <language>eng</language>
+                        <script>Latn</script>
+                    </text-representation>
+                    <artist-credit>
+                        <name-credit>
+                            <artist id="44f42386-a733-4b51-8298-fe5c807d03aa">
+                                <name>Mindless Self Indulgence</name>
+                                <sort-name>Mindless Self Indulgence</sort-name>
+                            </artist>
+                        </name-credit>
+                    </artist-credit>
+                    <date>2002</date>
+                    <country>US</country>
+                </release>
+            </release-list>
+        </recording>
+    </metadata>
+    <metadata xmlns="http://musicbrainz.org/ns/mmd-2.0#">
+        <recording id="5774486b-9734-4383-91cc-63e7cae96549">
+            <title>Assassin</title>
+            <length>388000</length>
+            <artist-credit>
+                <name-credit>
+                    <artist id="9c9f1380-2516-4fc9-a3e6-f9f61941d090">
+                        <name>Muse</name>
+                        <sort-name>Muse</sort-name>
+                        <disambiguation>UK rock band</disambiguation>
+                    </artist>
+                </name-credit>
+            </artist-credit>
+            <release-list count="1">
+                <release id="d1861eeb-2dea-461d-b3cd-60ab8bf4aeca">
+                    <title>2007-03-12: International Forum, Tokyo, Japan</title>
+                    <status>Bootleg</status>
+                    <quality>normal</quality>
+                    <text-representation>
+                        <language>eng</language>
+                        <script>Latn</script>
+                    </text-representation>
+                    <artist-credit>
+                        <name-credit>
+                            <artist id="9c9f1380-2516-4fc9-a3e6-f9f61941d090">
+                                <name>Muse</name>
+                                <sort-name>Muse</sort-name>
+                                <disambiguation>UK rock band</disambiguation>
+                            </artist>
+                        </name-credit>
+                    </artist-credit>
+                </release>
+            </release-list>
+        </recording>
+    </metadata> 
+    <metadata xmlns="http://musicbrainz.org/ns/mmd-2.0#">
+        <recording id="8e681625-457b-4496-b1dc-2b3249308891">
+            <title>Seven Nation Army</title>
+            <artist-credit>
+                <name-credit>
+                    <artist id="11ae9fbb-f3d7-4a47-936f-4c0a04d3b3b5">
+                        <name>The White Stripes</name>
+                        <sort-name>White Stripes, The</sort-name>
+                    </artist>
+                </name-credit>
+            </artist-credit>
+            <release-list count="1">
+                <release id="57dc34e6-94cf-42b4-a43f-fb23f23a03ab">
+                    <title>Seven Nation Army</title>
+                    <status>Official</status>
+                    <quality>normal</quality>
+                    <text-representation>
+                        <language>eng</language>
+                        <script>Latn</script>
+                    </text-representation>
+                    <artist-credit>
+                        <name-credit>
+                            <artist id="11ae9fbb-f3d7-4a47-936f-4c0a04d3b3b5">
+                                <name>The White Stripes</name>
+                                <sort-name>White Stripes, The</sort-name>
+                            </artist>
+                        </name-credit>
+                    </artist-credit>
+                    <date>2003-04-21</date>
+                    <country>GB</country>
+                    <barcode>634904116279</barcode>
+                </release>
+            </release-list>
+        </recording>
+    </metadata>
+    <metadata xmlns="http://musicbrainz.org/ns/mmd-2.0#">
+        <recording id="adc3c18c-e481-4349-9e86-38ffeea7cec0">
+            <title>B.Y.O.B.</title>
+            <artist-credit>
+                <name-credit>
+                    <artist id="cc0b7089-c08d-4c10-b6b0-873582c17fd6">
+                        <name>System of a Down</name>
+                        <sort-name>System of a Down</sort-name>
+                    </artist>
+                </name-credit>
+            </artist-credit>
+            <release-list count="1">
+                <release id="86bfcd9a-c121-4755-b9d5-b017c147e824">
+                    <title>B.Y.O.B.</title>
+                    <status>Official</status>
+                    <quality>normal</quality>
+                    <text-representation>
+                        <language>eng</language>
+                        <script>Latn</script>
+                    </text-representation>
+                    <artist-credit>
+                        <name-credit>
+                            <artist id="cc0b7089-c08d-4c10-b6b0-873582c17fd6">
+                                <name>System of a Down</name>
+                                <sort-name>System of a Down</sort-name>
+                            </artist>
+                        </name-credit>
+                    </artist-credit>
+                    <date>2005-05-02</date>
+                    <country>GB</country>
+                </release>
+            </release-list>
+        </recording>
+    </metadata>
+</song-libary>

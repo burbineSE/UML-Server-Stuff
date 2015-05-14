@@ -1,0 +1,5 @@
+Dozen(s): 10
+Queue Depth: 50
+Consumers: 5
+Loops: 3
+Deadlocks: 0

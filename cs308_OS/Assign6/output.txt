@@ -1,0 +1,72 @@
+[cburbine@mercury Assign6]$ ./stat
+FILENAME:                       Makefile
+FILE_TYPE:                      ordinary
+PERMISSIONS:                    -rw-------
+OWNER_NAME:                     cburbine
+GROUP_NAME:                     cs2014
+DATE_OF_LAST_MODIFICATION:      Fri May  2 11:43:30 2014
+LINK_COUNT:                     1
+SIZE_IN_BYTES:                  131072 bytes
+INODE_NUMBER:                   -521974301
+
+FILENAME:                       stat.c
+FILE_TYPE:                      ordinary
+PERMISSIONS:                    -rw-r--r--
+OWNER_NAME:                     cburbine
+GROUP_NAME:                     cs2014
+DATE_OF_LAST_MODIFICATION:      Fri May  2 11:23:05 2014
+LINK_COUNT:                     1
+SIZE_IN_BYTES:                  131072 bytes
+INODE_NUMBER:                   -774720573
+
+FILENAME:                       .
+FILE_TYPE:                      directory
+PERMISSIONS:                    drwx------
+OWNER_NAME:                     cburbine
+GROUP_NAME:                     cs2014
+DATE_OF_LAST_MODIFICATION:      Fri May  2 11:44:20 2014
+LINK_COUNT:                     2
+SIZE_IN_BYTES:                  131072 bytes
+INODE_NUMBER:                   -806886387
+
+FILENAME:                       ..
+FILE_TYPE:                      directory
+PERMISSIONS:                    drwx------
+OWNER_NAME:                     cburbine
+GROUP_NAME:                     cs2014
+DATE_OF_LAST_MODIFICATION:      Thu May  1 11:13:08 2014
+LINK_COUNT:                     8
+SIZE_IN_BYTES:                  131072 bytes
+INODE_NUMBER:                   -1488250123
+
+FILENAME:                       stat
+FILE_TYPE:                      ordinary
+PERMISSIONS:                    -rwx------
+OWNER_NAME:                     cburbine
+GROUP_NAME:                     cs2014
+DATE_OF_LAST_MODIFICATION:      Fri May  2 11:44:21 2014
+LINK_COUNT:                     1
+SIZE_IN_BYTES:                  131072 bytes
+INODE_NUMBER:                   -1151718813
+_______________________________________________________________________________
+
+[cburbine@mercury Assign6]$ ./stat stat.c output.txt
+FILENAME:                       stat.c
+FILE_TYPE:                      ordinary
+PERMISSIONS:                    -rw-r--r--
+OWNER_NAME:                     cburbine
+GROUP_NAME:                     cs2014
+DATE_OF_LAST_MODIFICATION:      Fri May  2 11:23:05 2014
+LINK_COUNT:                     1
+SIZE_IN_BYTES:                  131072 bytes
+INODE_NUMBER:                   -774720573
+
+FILENAME:                       output.txt
+FILE_TYPE:                      ordinary
+PERMISSIONS:                    -rw-------
+OWNER_NAME:                     cburbine
+GROUP_NAME:                     cs2014
+DATE_OF_LAST_MODIFICATION:      Fri May  2 11:45:45 2014
+LINK_COUNT:                     1
+SIZE_IN_BYTES:                  131072 bytes
+INODE_NUMBER:                   1084315291

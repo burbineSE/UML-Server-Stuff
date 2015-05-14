@@ -1,0 +1,168 @@
+Some runs were made during high traffic hours so the total cycles fluctuate somewhat. All runs, except one, 
+resulted in a sum being outputted. Run 3 does not as the two numbers resulting in a sum that is greater than 
+32767, thus an overflow. All sums have been double checked for accuracy, found to be correct.
+
+RUN 1:
+cburbine@cs4:/usr/cs/fac1/bill/cs305$ ./mic1 prom_mrd.dat ~cburbine/cs305/A5_AddInput.obj 0 2048
+
+Read in 152 micro instructions
+Read in 379 machine instructions
+Starting PC is : 0000000000000000  base 10:       0
+Starting SP is : 0000100000000000  base 10:    2048
+
+PLASE ENTER AN INT BETWEEN 1 AND 32767
+235
+PLASE ENTER AN INT BETWEEN 1 AND 32767
+0
+THE SUM OF THESE NUMBERS IS:
+235
+
+ProgramCounter : 0000000001111001  base 10:     121
+Accumulator    : 0000000000000000  base 10:       0
+InstructionReg : 1111111111000000  base 10:   65472
+TempInstr      : 1000000000000000  base 10:   32768
+StackPointer   : 0000100000000000  base 10:    2048
+ARegister      : 1111111111110101  base 10:   65525
+BRegister      : 1111111111110110  base 10:   65526
+CRegister      : 0000000000000000  base 10:       0
+DRegister      : 0000000000000010  base 10:       2
+ERegister      : 0000000000000000  base 10:       0
+FRegister      : 0000000000000000  base 10:       0
+
+Total cycles   : 3046742
+
+Type decimal address to view memory,  q  to quit or  c  to continue: q
+MIC-1 emulator finishing, goodbye
+
+
+RUN 2:
+cburbine@cs4:/usr/cs/fac1/bill/cs305$ ./mic1 prom_mrd.dat ~cburbine/cs305/A5_AddInput.obj 0 2048
+
+Read in 152 micro instructions
+Read in 379 machine instructions
+Starting PC is : 0000000000000000  base 10:       0
+Starting SP is : 0000100000000000  base 10:    2048
+
+PLASE ENTER AN INT BETWEEN 1 AND 32767
+16341
+PLASE ENTER AN INT BETWEEN 1 AND 32767
+957
+THE SUM OF THESE NUMBERS IS:
+17298
+
+ProgramCounter : 0000000001111001  base 10:     121
+Accumulator    : 0000000000000000  base 10:       0
+InstructionReg : 1111111111000000  base 10:   65472
+TempInstr      : 1000000000000000  base 10:   32768
+StackPointer   : 0000100000000000  base 10:    2048
+ARegister      : 1111111111110101  base 10:   65525
+BRegister      : 1111111111110110  base 10:   65526
+CRegister      : 0000000000000000  base 10:       0
+DRegister      : 0000000000000001  base 10:       1
+ERegister      : 0000000000000000  base 10:       0
+FRegister      : 0000000000000000  base 10:       0
+
+Total cycles   : 2139033
+
+Type decimal address to view memory,  q  to quit or  c  to continue: q
+MIC-1 emulator finishing, goodbye
+
+
+RUN 3:
+cburbine@cs4:/usr/cs/fac1/bill/cs305$ ./mic1 prom_mrd.dat ~cburbine/cs305/A5_AddInput.obj 0 2048
+
+Read in 152 micro instructions
+Read in 379 machine instructions
+Starting PC is : 0000000000000000  base 10:       0
+Starting SP is : 0000100000000000  base 10:    2048
+
+PLASE ENTER AN INT BETWEEN 1 AND 32767
+23786
+PLASE ENTER AN INT BETWEEN 1 AND 32767
+12400
+OVERFLOW, NO SUM POSSIBLE
+
+ProgramCounter : 0000000010000110  base 10:     134
+Accumulator    : 1111111111111111  base 10:   65535
+InstructionReg : 1111111111000000  base 10:   65472
+TempInstr      : 1000000000000000  base 10:   32768
+StackPointer   : 0000011111111110  base 10:    2046
+ARegister      : 1111111111111110  base 10:   65534
+BRegister      : 1111111111111111  base 10:   65535
+CRegister      : 0000000000000000  base 10:       0
+DRegister      : 0011000001110000  base 10:   12400
+ERegister      : 0000000000000000  base 10:       0
+FRegister      : 0000000000000000  base 10:       0
+
+Total cycles   : 2741011
+
+Type decimal address to view memory,  q  to quit or  c  to continue: q
+MIC-1 emulator finishing, goodbye
+
+
+
+RUN 4:
+cburbine@cs4:/usr/cs/fac1/bill/cs305$ ./mic1 prom_mrd.dat ~cburbine/cs305/A5_AddInput.obj 0 2048
+
+Read in 152 micro instructions
+Read in 379 machine instructions
+Starting PC is : 0000000000000000  base 10:       0
+Starting SP is : 0000100000000000  base 10:    2048
+
+PLASE ENTER AN INT BETWEEN 1 AND 32767
+12
+PLASE ENTER AN INT BETWEEN 1 AND 32767
+23
+THE SUM OF THESE NUMBERS IS:
+35
+
+ProgramCounter : 0000000001111001  base 10:     121
+Accumulator    : 0000000000000000  base 10:       0
+InstructionReg : 1111111111000000  base 10:   65472
+TempInstr      : 1000000000000000  base 10:   32768
+StackPointer   : 0000100000000000  base 10:    2048
+ARegister      : 1111111111110101  base 10:   65525
+BRegister      : 1111111111110110  base 10:   65526
+CRegister      : 0000000000000000  base 10:       0
+DRegister      : 0000000000000011  base 10:       3
+ERegister      : 0000000000000000  base 10:       0
+FRegister      : 0000000000000000  base 10:       0
+
+Total cycles   : 1670002
+
+Type decimal address to view memory,  q  to quit or  c  to continue: q
+MIC-1 emulator finishing, goodbye
+
+
+
+RUN 5:
+cburbine@cs4:/usr/cs/fac1/bill/cs305$ ./mic1 prom_mrd.dat ~cburbine/cs305/A5_AddInput.obj 0 2048
+
+Read in 152 micro instructions
+Read in 379 machine instructions
+Starting PC is : 0000000000000000  base 10:       0
+Starting SP is : 0000100000000000  base 10:    2048
+
+PLASE ENTER AN INT BETWEEN 1 AND 32767
+1
+PLASE ENTER AN INT BETWEEN 1 AND 32767
+1343
+THE SUM OF THESE NUMBERS IS:
+1344
+
+ProgramCounter : 0000000001111001  base 10:     121
+Accumulator    : 0000000000000000  base 10:       0
+InstructionReg : 1111111111000000  base 10:   65472
+TempInstr      : 1000000000000000  base 10:   32768
+StackPointer   : 0000100000000000  base 10:    2048
+ARegister      : 1111111111110101  base 10:   65525
+BRegister      : 1111111111110110  base 10:   65526
+CRegister      : 0000000000000000  base 10:       0
+DRegister      : 0000000000000001  base 10:       1
+ERegister      : 0000000000000000  base 10:       0
+FRegister      : 0000000000000000  base 10:       0
+
+Total cycles   : 1668704
+
+Type decimal address to view memory,  q  to quit or  c  to continue: q
+MIC-1 emulator finishing, goodbye
