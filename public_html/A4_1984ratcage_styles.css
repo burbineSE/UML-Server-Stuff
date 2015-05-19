@@ -1,0 +1,167 @@
+/* File: http://weblab.cs.uml.edu/~cburbine/A3_styles.html
+  Christopher Burbine, UMass Lowell Compter Science Student, christopher_burbine@student.uml.edu
+  91.461 GUI Programming I, Assignment 4: Formatting Dynamic Text
+  Created on October 1, 2013 at 9:35 AM
+        
+  This file is my external CSS styles sheet that styles the JSON text for my page.*/
+
+/* Style sheet for index page. All parameters where found on (http://www.w3schools.com/cssref/default.asp)
+   and used throughout this CSS file.*/
+
+/*A CSS rest provided by http://meyerweb.com/; linked bellow.*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed,figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*End of CSS rest.*/
+
+/*I stuck with a similar setup from my assignment 3 simply because it seemed to fit what I was trying to do. Some changes were made of course to fit the theme of the page.*/
+/*The html block lays out the background image making it fit the page.*/
+html{
+    background-image:url(A_images/propwall3.png); /*Image made by me from several images which are linked here: http://johnnyvoid.files.wordpress.com/2012/03/universal-credit-big-brother.jpg, 
+                                        http://rlv.zcache.com/insoc_1984_propaganda_print-rb140e8b9fa83407ea95a5d791a112f6c_ai6g4_8byvr_512.jpg, http://ih2.redbubble.net/image.8700142.6964/flat,550x550,075,f.jpg,
+                                        http://1.bp.blogspot.com/-gMAY8tjhgwI/TucvFP3XcRI/AAAAAAAAAnM/o4FR4rP1qfY/s200/ingsoc1.png, http://questgarden.com/104/52/4/100609072426/images/fight%20though%20crime%20pic.jpg,
+                                        http://farm6.staticflickr.com/5002/5304045837_58a21a0ec8.jpg, http://ih0.redbubble.net/image.12434128.0760/poster,375x360,ffffff.jpg, 
+                                        https://s-media-cache-ec5.pinimg.com/upload/278097345710339905_WIppSttQ_f.jpg, http://ih0.redbubble.net/image.12434255.0844/flat,550x550,075,f.jpg,
+                                        http://www.sovereignindependentuk.co.uk/wp-content/uploads/2013/02/cropped-big-brother-is-watching-1984.png,
+                                        http://fc05.deviantart.net/fs50/f/2009/288/e/9/Dirty_Paper_Texture_by_frozenstocks.jpg*/
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:center;
+    background-size:100% 100%; 
+}
+/*Formats the incoming text.*/
+body {
+    margin:50px 0px;
+    padding:0px; /* Sets body margin and padding to be consistent between browsers. */
+    text-align:center; /* Hack for IE5/Win. Left in from original code,
+                          seems to have no visual effect on or off. */
+}
+/*Sets up the text box on the page.*/
+.main {
+    width:600px;
+    margin:50px auto; /* Right and left margin widths set to "auto" */
+    text-align:left; /* Counteract to IE5/Win Hack */
+    padding-top:0px;
+    padding-bottom:50px;
+    padding-right:50px;
+    padding-left:50px;
+    border-style:ridge;
+    border-color:red;
+    border-width:6px;
+    background-color: rgba(255,255,255,.75);
+    background-image:url(A_images/WiPFiSIiS_bgcopy.png);
+    background-size:100%; 
+    font-family: 'Titillium Web', Arial, sans-serif;
+    font-weight: bold;
+    line-height:150%;
+}
+
+/*This block gives the author, published and publisher lines a different look to set them apart from the title and paragraphs on the page. */
+.author, .published, .publisher {
+    font-variant:small-caps;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+/*Creates a border above the author line. Style wise it breaks up the information better. The reason why I placed the border "above" the 
+author line and not "bellow" the title was due to some formatting issues. The border line would cut through the title and I could not figure 
+out why so I simply placed "above" the author line which seemed to fix the issue.*/
+.author {
+    border-top: 5px solid red;
+    border-style:ridge;
+}
+
+/*Formats the title line, makes it large, red and bold as well as giving it a solid black shadow to make it pop a bit more.*/
+.main h1 {
+    font-size: 375%;
+    margin-top:20px;
+    margin-bottom: 15px;
+    color:red;
+    font-weight: bold;
+    text-shadow:2px 2px black;
+    font-variant:small-caps;
+}
+
+/*Puts a bit of space between the "Return to Assignments" button and the last line of the header.*/
+.publisher {
+    margin-bottom: 25px;
+
+}
+/*Puts a bit of space between the body of the text and video box.*/
+.main iframe{
+    margin-top:20px;
+}
+
+/*Makes the body text a bit bigger and places a gap between each paragraph. */
+.main p{
+    margin-bottom: 15px;
+    font-size: 110%
+
+}
+
+/*Changes the first latter of each paragraph to be a bit bigger that normal and red. Also gives them a small 
+shadow. Did this to make the wall of text look a more interesting. */
+.main p:first-letter{
+    font-size: 135%;
+    color:red;
+    text-shadow:1px 1px black;
+}
+
+/*Places a small border around the video. Helps fit the theme and make it pop a bit more.*/
+.main iframe{
+    border-style:solid;
+    border-color:red;
+    border-width:3px;
+}
+
+/* Menu setup taken from (http://www.w3schools.com/css/tryit.asp?filename=trycss_float5) and then modified. 
+Modified a second time to fit assignment 4.*/
+.retAssign a{
+    font-family: 'Titillium Web', Arial, serif;
+    text-decoration:none;
+    color:white;
+    width:21.8%;
+    background-color: red;
+    padding:0.2em 0.6em;
+    font-variant:small-caps;
+}
+.retAssign a:hover {background-color:rgb(168,2,6);}
+/*End of menu setup.*/
+
+/*Changes the hyperlink to red to fit the theme.*/
+.vid a{
+    color:red;
+}

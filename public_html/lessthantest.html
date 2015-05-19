@@ -1,0 +1,39 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="jquery-validation-1.11.1/dist/jquery.validate.min.js" type="text/javascript"></script>
+        <script>
+            $(document).ready(function() {
+               $.validator.addMethod('lessThanEqual', function(value, element, param) {
+                    return this.optional(element) || parseInt(value) <= parseInt($(param).val());
+                }, "The value {0} must be less than {1}"); 
+                
+                $('#frm').validate({
+                   rules: {
+                       first: {
+                           number: true,
+                           lessThanEqual: true
+                       },
+                       second: {
+                           number: true
+                       }
+                   } 
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <form name="frm" id="frm" method="GET" action="">
+            <input type="text" name="first" id="first"><br>
+            <input type="text" name="second" id="second"><br>
+            <input type="submit" value="Go!">
+        </form>
+    </body>
+</html>

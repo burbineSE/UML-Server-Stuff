@@ -1,2 +1,0 @@
-PCpipes : A7_pipes.c
-	gcc -Wall -pedantic A7_pipes.c 
