@@ -1,0 +1,17 @@
+/*
+ * file: dookData.css
+ * authors: cburbine, nwarren, schau
+ * course: 91.462 - GUI II Programming
+ * email: 
+ * christopher_burbine@student.uml.edu
+ * nicholas_warren@student.uml.edu
+ * sathaun_chau@student.uml.edu
+ *
+ * Description: Style sheet for formatting book data entries.
+ */
+
+/* Put each book detail in book entries on seperate lines */
+.bookDetail {
+    display: block
+}
+

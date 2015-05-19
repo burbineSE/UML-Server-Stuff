@@ -1,0 +1,73 @@
+/*
+ * file: mainCSS.css
+ * authors: cburbine, nwarren, schau
+ * course: 91.462 - GUI II Programming
+ * email: 
+ * christopher_burbine@student.uml.edu
+ * nicholas_warren@student.uml.edu
+ * sathaun_chau@student.uml.edu
+ *
+ * Description:
+ */
+
+table.loginTable {
+    margin: auto;
+}
+
+input.button {
+    display: block;
+    margin: 5px auto;
+}
+
+h3.loginTitle {
+    text-align: center;
+}
+
+html {
+    background-color: #9ECBFF;
+    /*font-size: 110%;*/
+}
+
+a {
+    display: inline-block;
+    margin: 10px 0px;
+    color: black;
+    font-size: 115%;
+}
+
+img {
+    float: left;
+    width: 150px;
+    height: 200px;
+    margin: 10px;
+}
+
+.bookEntry, .bookEntrySelling {
+    padding: 10px;
+    /*white-space: normal;*/
+    vertical-align: -79px;
+    display: inline-block;
+    /* if you need ie6/7 support */
+    /**display: inline;
+    zoom: 1*/
+    padding-bottom: 25px;
+    
+}
+
+.wantedBooks, .saleBooks{
+    float: left;
+    padding-right: 25px;
+    border:2px solid #ff8300;
+    padding:10px 40px; 
+    background:#ffffff;
+    width:450px;
+    border-radius:25px;
+    box-shadow: 10px 10px 5px #888888;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+h3{
+    border-bottom-style: solid;
+    border-color: #ff8300;
+}
