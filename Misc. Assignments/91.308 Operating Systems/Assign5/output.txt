@@ -1,0 +1,10 @@
+1) Req#: 89 Size: 53152
+2) Req#: 213 Size: 112480
+3) Req#: 217 Size: 128224
+4) Req#: 302 Size: 118560
+5) Req#: 346 Size: 112864
+6) Req#: 350 Size: 128160
+7) Req#: 551 Size: 117344
+8) Req#: 634 Size: 65696
+9) Req#: 635 Size: 100448
+10) Req#: 873 Size: 80736

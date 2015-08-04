@@ -1,0 +1,106 @@
+/*just sets the background to black*/
+html {
+    background-color: black;
+
+}
+/*Sets the default color and type of the text on the page*/
+body {
+    color:white;
+    font-family: Arial Black, serif;
+}
+table {
+    font-size: 80%; 
+}
+tbody,tr,td {
+    border: 3px solid rgb(69,126,255);
+}
+/*Table modification techniques taken from Prof. Heines, and in turn modified for my own needs.*/
+tr:first-child td {
+    background-color:white;
+    color: black;
+    border-left: 3px solid rgb(69,126,255);
+    border-right: 3px solid rgb(69,126,255);
+    border-top: 3px solid rgb(69,126,255);
+}
+tr:first-child td:first-child{
+    background-color:black;
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+}
+tr td:first-child {
+    background-color:white;
+    color: black;
+    border-left: 3px solid rgb(69,126,255);
+    border-right: 3px solid rgb(69,126,255);
+    border-top: 3px solid rgb(69,126,255);
+}
+/*Prof's techniques end here*/
+
+td {
+    text-align:right;
+    width: 25px;
+}
+
+h1 strong {
+    color:rgb(69,126,255);
+}
+
+/*Modifies the labels to line up the input boxes*/
+.inputLb {
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 160px;
+    color:rgb(69,126,255);
+}
+
+/*Spaces out the input boxes, gives them a border, rounds their edges and shortens them.*/
+#topNumFirst, #topNumLast, #sideNumFirst, #sideNumLast{
+    margin-bottom: 7px;
+    border: 3px solid rgb(69,126,255);
+    border-radius: 7px;
+    width:75px;
+}
+
+#buildit{
+    margin-bottom:10px;
+}
+
+/*Creates a blue glow around the input boxes as well as around the input button when pushed(this was unintentional, but I liked the look of it).*/
+input:focus{
+    outline: none;
+    border-color: rgb(69,126,255);
+    box-shadow: 0 0 10px  rgb(69,126,255);
+}
+
+/*Changes the color and removes the underline of the anchor tags.*/
+a {
+    color:rgb(69,126,255);
+    text-decoration: none;
+}
+
+/*Makes it so that the underline comes back when anchor tags are hovered over.*/
+a:hover {
+    text-decoration:underline;
+}
+
+/*Method and coloration taken from the JavaScript and jQuery book ch.9 in the validation tutorial*/
+#frm label.error {
+    font-size: 0.9em;
+    color: #F00;
+    font-weight: bold;
+    margin-left: 15px;
+}
+#frm input.error{
+    border: 3px solid red;
+}
+/*Method was created through a combination of the book tutorial and the input:focus above*/
+#frm input.error:focus {
+    outline: none;
+    border-color: red;
+    box-shadow: 0 0 10px red;
+}
+
+#subButton{
+    margin-bottom: 10px;
+}

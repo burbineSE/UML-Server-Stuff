@@ -1,0 +1,9 @@
+Degree of success: %100
+
+Discussion: The main issue I had with this assignment was the timing of the 
+different parent and child actions, but after the Thursday class I found that I
+ was over thinking the set up and where everything should be called was much 
+simpler than I had originally assumed. In short most of the problems I was 
+having with this assignment were resolved in the Thursday class.
+
+Email: christopher_burbine@student.uml.edu

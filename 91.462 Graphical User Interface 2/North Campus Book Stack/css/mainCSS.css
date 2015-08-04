@@ -1,0 +1,126 @@
+/*
+ * file: mainCSS.css
+ * authors: cburbine, nwarren, schau
+ * course: 91.462 - GUI II Programming
+ * email: 
+ * christopher_burbine@student.uml.edu
+ * nicholas_warren@student.uml.edu
+ * sathaun_chau@student.uml.edu
+ *
+ * Description:
+ */
+body{
+    width: 700px;
+    margin:50px auto; /* Right and left margin widths set to "auto" */
+    padding: 15px 30px;
+    background-color: white;
+    border:2px solid #ff8300;
+    border-radius:25px;
+    /*padding-left:40px;*/
+    box-shadow: 10px 10px 5px #888888;
+    font-family:Trebuchet MS,Tahoma,Verdana,Arial,sans-serif;
+    padding-bottom:50px;
+}
+html{
+    margin-bottom:75px
+}
+
+table.loginTable {
+    margin: auto;
+}
+
+input.button {
+    display: block;
+    margin: 5px auto;
+}
+
+h3.loginTitle {
+    text-align: center;
+}
+h1{
+    font-size:175%;
+}
+
+html {
+    background-color: #9ECBFF;
+    /*font-size: 110%;*/
+}
+
+/*a {
+    display: inline-block;
+    margin: 10px 0px;
+    color: black;
+    font-size: 115%;
+}*/
+
+.bookimg {
+    float: left;
+    width: 175px;
+    height: 250px;
+    margin: 10px;
+}
+#biglogo{
+    float:center;
+    padding-top:20px;
+    padding-bottom:20px;
+    width:650px;    
+}
+.bookEntry, .bookEntrySelling {
+    /*padding: 10px;*/
+    /*white-space: normal;
+    /*vertical-align: -79px;
+    display: inline-block;*/
+    /* if you need ie6/7 support*/ 
+    /**display: inline;
+    zoom: 1*/
+    /*padding-bottom: 25px;*/
+    /*float: left;*/
+    
+}
+/*checkbox{
+    float:right;
+}*/
+#logo{
+    height:25px;
+    width:85px;
+    margin:0px;
+}
+.wantedBooks, .saleBooks{
+    float: center;
+    padding-right: 25px;
+    border:2px solid #ff8300;
+    padding:10px 40px; 
+    background:#ffffff;
+    width:500px;
+    border-radius:25px;
+    box-shadow: 10px 10px 5px #888888;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+h3{
+    border-bottom-style: solid;
+    border-color: #ff8300;
+}
+/*#serachres{
+    font-size: 115%;
+}*/
+#find{
+    width: 300px;
+}
+/*
+.field{
+    font-size: 115%;
+}
+input.datepicker{
+    font-size: 115%;
+}
+.messp{
+    font-size: 115%;
+}*/
+.buttonholder{ 
+    text-align: center; 
+}
+.logerr{
+    text-align: center;
+}

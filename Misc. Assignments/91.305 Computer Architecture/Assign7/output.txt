@@ -1,0 +1,34 @@
+cburbine@cs3:~/cs305/Assign7$ ./A7_pipes
+
+This is the Parent process report:
+
+PARENT PROC: Process ID is:             3668
+PARENT PROC: Process parent ID is:      726
+PARENT PROC: Real UID is:               15140
+PARENT PROC: Real GID is:               2014
+PARENT PROC: Effective UID is:          15140
+PARENT PROC: Effective GID is:          2014
+PARENT PROC: Process priority is:       0
+
+PARENT PROC: will now create child, write to pipe,
+ and do a normal termination.
+
+PARENT PROC: created Child with 3669 PID
+
+This is the Child process report:
+
+CHILD PROC: Process ID is:              3669
+CHILD PROC: Process parent ID is:       3668
+CHILD PROC: Real UID is:                15140
+CHILD PROC: Real GID is:                2014
+CHILD PROC: Effective UID is:           15140
+CHILD PROC: Effective GID is:           2014
+CHILD PROC: Process priority is:        0
+
+CHILD PROC: about to read pipe and report message from parent:
+
+CHILD PROC: parent's message is
+        This is a pipe message from the parent with PID 3668
+
+CHILD PROC: new parent has PID 1
+CHILD PROC: ### Goodbye ###

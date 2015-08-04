@@ -1,0 +1,32 @@
+Section 1.2: In this case the exptions used in this code unnessarly slow down 
+the  code by instead of just calculating the fib number, it goes through an 
+exception check. The use of exceptions also tend to be very un-user freindly
+as they are ing this case, througing an excecption but but not telling the 
+client what to do.
+
+Section 2.2: I found that the nothrow was much faster than the throw runs. 
+for the throw runs i got:
+
+av real: 0.649s
+av user: 0.604s
+av sys:  0.008s
+
+for the nothrow runs i got:
+
+av real: 0.019s
+av user: 0.013s
+av sys:  0.006s
+
+The throw runs are in fact much longer int comparion. I think this is true 
+because the code needs to take time to throw and catch the data.
+
+Section 2.3: Id say from just looking at the code id say that the count would
+be very close or exactly the same as the the return Fib number.
+
+I was close my counter found that the throw count is one less than the Fib 
+numer.
+
+Section 2.4: Id say that in some situations will need an exception call, but
+it might be better to call a pre-existing exception insted of creating one
+of ones own exception. Over all i can see the need of them in some situations
+where an excptions will be helpful, but not nessrealy needed. 

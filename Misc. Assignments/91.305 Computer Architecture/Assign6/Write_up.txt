@@ -1,0 +1,8 @@
+Degree of Success: 35%
+To begin with, my program does not work due to a key main issues. Firstly the .obj files that I had been using for
+ my program had something wrong with them, I think I may have accidentally modified them without realizing it, so
+ my design is fundamentally flawed and will not work with newly created .obj files. That being said given more 
+time I do think I can get them working, but unfortunately I have run out of time. Secondly because of this I 
+have to tested my .obj files from my A5, so I do not know if they work or not.
+
+Email: Christopher_burbine@student.uml.edu 

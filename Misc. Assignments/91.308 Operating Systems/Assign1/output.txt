@@ -1,0 +1,50 @@
+[cburbine@mercury Assign1]$ ./A1 &
+[1] 9917
+[cburbine@mercury Assign1]$
+This is the Parent process report:
+
+PARENT PROG: Process ID is:             9917
+PARENT PROG: Process parent ID is:      9879
+PARENT PROG: Real UID is:               15140
+PARENT PROG: Real GID is:               2014
+PARENT PROG: Effective UID is:          15140
+PARENT PROG: Effective GID is:          2014
+PARENT PROG: Process priority is:       0
+
+The parent will now create the child process, read from pipe, send kill command, and wait for obiturary.
+
+This is the Child process report:
+
+CHILD PROG: Process ID is:              9918
+CHILD PROG: Process parent ID is:       9917
+CHILD PROG: Real UID is:                15140
+CHILD PROG: Real GID is:                2014
+CHILD PROG: Effective UID is:           15140
+CHILD PROG: Effective GID is:           2014
+CHILD PROG: Process priority is:        0
+
+Child will now write to pipe and go into an infinite loop.
+
+CHILD PROG: Signal number 15 called after 9534 loops.  Will now execl prof program.
+
+This is the Prof process report:
+
+PROF PROG:  Process ID is:              9918
+PROF PROG:  Process parent ID is:       9917
+PROF PROG:  Real UID is:                15140
+PROF PROG:  Real GID is:                2014
+PROF PROG:  Effective UID is:           15140
+PROF PROG:  Effective GID is:           2014
+PROF PROG:  Process priority is:        5
+
+PROF PROG: going into and endless loop, use
+ kill 9918   to kill me now
+
+kill 9918
+
+
+PROF PROG: Awake in handler - You Got Me With Signal
+ Number 15 after spinning for more
+ than 1467404304  loop iterations, goodbye
+
+PARENT PROG: Child exited with: exit 1

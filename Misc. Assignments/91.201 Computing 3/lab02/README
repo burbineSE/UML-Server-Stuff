@@ -1,0 +1,13 @@
+Chris Burbine 
+91.201
+Lab02
+2/1/2012
+
+just an note i seperated the two parts into two files, GradeBookFile and 
+AccountFile respectivly
+
+The Modification ARE correct using a.out will run it properly, but i'm haveing
+troble with the Makefile
+
+Account application does work with just a.out, still haveing some issues with
+the makefile

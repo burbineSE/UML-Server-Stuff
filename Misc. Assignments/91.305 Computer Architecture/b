@@ -1,0 +1,3 @@
+big loop-0 loopstart -o case
+ > loopstart -0 loopstart -o case
+ > loopstart 

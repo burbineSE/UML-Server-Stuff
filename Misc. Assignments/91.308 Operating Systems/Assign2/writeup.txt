@@ -1,0 +1,23 @@
+Degree of success: %100
+
+Discussion: The main issue I had with this assignment was remembering all of 
+the parts necessary to get the result I was looking for in this assignment. It 
+came down mainly to printing information correctly and dealing with the pipes. 
+It took me some time to to figure out why I wasn't getting any information out 
+of pfdin[0] until I realized that I handed fdopn-ed it to my par_infile 
+(something which I believe was told to us in class to do, but I forgot about). 
+I also ran into some issues with printing information, specificity with my 
+function that printed out that lined of dots which counted the out the amount 
+of information passed. I solved the issue by adding the lines "printf("\n");" 
+and "fflush(stdout);" before attempting to print the dots.
+
+Observations of cs308a2_grep_data_2 compared to cs308a2_grep_data_1: With 
+cs308a2_grep_data_1 everything outputted as expected. My program spat out all 
+of the lines containing a '123' in them and counted the number of lines found 
+as intended; cs308a2_grep_data_2, however did not do this. With 
+cs308a2_grep_data_2 there was to much information to sort through with caused 
+both the inbound side pipe to the child and the outbound side of the other pipe 
+to the parent to fill up causing them to both block on their respective end of 
+their pipes, effectively freezing the program in its tracks. 
+
+Email: christopher_burbine@student.uml.edu

@@ -1,0 +1,8 @@
+Complier:
+gcc -Wall -pedantic -o linker linker.c
+
+was working with flawed test files
+Run (-o option): ./linker -o addints.obj main.obj rbsywt.obj writeint.obj writestr.obj xbsywt.obj > addinput.obj
+
+not implemented 
+Run (.exe ): ./linker addints.obj main.obj rbsywt.obj writeint.obj writestr.obj xbsywt.obj > addinput.exe

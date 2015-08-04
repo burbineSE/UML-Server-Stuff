@@ -1,0 +1,829 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This is a test comment.
+-->
+<!-- This is a one line test comment. -->
+<song-library>
+    <metadata xmlns="http://musicbrainz.org/ns/mmd-2.0#">
+        <recording id="e14cb4f2-530e-4848-bcc1-e8683e1ee79f">
+            <title>Joker and the Theif</title>
+            <artist-credit>
+                <name-credit>
+                    <artist id="f0c8f75f-8736-4b1d-b312-9349fcff321d">
+                        <name>Wolfmother</name>
+                        <sort-name>Wolfmother</sort-name>
+                    </artist>
+                </name-credit>
+            </artist-credit>
+            <release-list count="1">
+                <release id="b0acea88-c719-412b-8eae-33457b3690a5">
+                    <title>2007-03-06: Kool Haus, Toronto, ON, Canada</title>
+                    <status>Bootleg</status>
+                    <quality>normal</quality>
+                    <text-representation>
+                        <language>eng</language>
+                        <script>Latn</script>
+                    </text-representation>
+                    <artist-credit>
+                        <name-credit>
+                            <artist id="f0c8f75f-8736-4b1d-b312-9349fcff321d">
+                                <name>Wolfmother</name>
+                                <sort-name>Wolfmother</sort-name>
+                            </artist>
+                        </name-credit>
+                    </artist-credit>
+                </release>
+            </release-list>
+        </recording>
+    </metadata>
+    <metadata xmlns="http://musicbrainz.org/ns/mmd-2.0#">
+        <recording id="d6971656-c5ff-4699-a24d-05c1a694eca7">
+            <title>Bring the Pain</title>
+            <length>219373</length>
+            <artist-credit>
+                <name-credit>
+                    <artist id="44f42386-a733-4b51-8298-fe5c807d03aa">
+                        <name>Mindless Self Indulgence</name>
+                        <sort-name>Mindless Self Indulgence</sort-name>
+                    </artist>
+                </name-credit>
+            </artist-credit>
+            <release-list count="4">
+                <release id="1fc5f451-4ccc-460c-9be2-3080538fce31">
+                    <title>Take a Bite Outta Rhyme</title>
+                    <status>Official</status>
+                    <quality>normal</quality>
+                    <text-representation>
+                        <language>eng</language>
+                        <script>Latn</script>
+                    </text-representation>
+                    <artist-credit>
+                        <name-credit>
+                            <artist id="89ad4ac3-39f7-470e-963a-56509c546377">
+                                <name>Various Artists</name>
+                                <sort-name>Various Artists</sort-name>
+                                <disambiguation>add compilations to this artist</disambiguation>
+                            </artist>
+                        </name-credit>
+                    </artist-credit>
+                    <date>2000-10-24</date>
+                    <country>US</country>
+                </release>
+                <release id="3cd2629c-d6bf-45c9-9cb6-c13b28507345">
+                    <title>Tight</title>
+                    <status>Official</status>
+                    <quality>normal</quality>
+                    <text-representation>
+                        <language>eng</language>
+                        <script>Latn</script>
+                    </text-representation>
+                    <artist-credit>
+                        <name-credit>
+                            <artist id="44f42386-a733-4b51-8298-fe5c807d03aa">
+                                <name>Mindless Self Indulgence</name>
+                                <sort-name>Mindless Self Indulgence</sort-name>
+                            </artist>
+                        </name-credit>
+                    </artist-credit>
+                    <date>1999-04-06</date>
+                    <country>US</country>
+                    <barcode>075596239028</barcode>
+                </release>
+                <release id="8852d4e0-51b2-4ab3-9d49-45b597e7b63b">
+                    <title>Bring the Pain / Panty Shot</title>
+                    <status>Promotion</status>
+                    <quality>normal</quality>
+                    <text-representation>
+                        <language>eng</language>
+                        <script>Latn</script>
+                    </text-representation>
+                    <artist-credit>
+                        <name-credit>
+                            <artist id="44f42386-a733-4b51-8298-fe5c807d03aa">
+                                <name>Mindless Self Indulgence</name>
+                                <sort-name>Mindless Self Indulgence</sort-name>
+                            </artist>
+                        </name-credit>
+                    </artist-credit>
+                    <date>1999</date>
+                    <country>US</country>
+                </release>
+                <release id="f6030f6d-73f1-4722-986b-219b64717fd5">
+                    <title>Thank God</title>
+                    <status>Promotion</status>
+                    <quality>normal</quality>
+                    <text-representation>
+                        <language>eng</language>
+                        <script>Latn</script>
+                    </text-representation>
+                    <artist-credit>
+                        <name-credit>
+                            <artist id="44f42386-a733-4b51-8298-fe5c807d03aa">
+                                <name>Mindless Self Indulgence</name>
+                                <sort-name>Mindless Self Indulgence</sort-name>
+                            </artist>
+                        </name-credit>
+                    </artist-credit>
+                    <date>2002</date>
+                    <country>US</country>
+                </release>
+            </release-list>
+        </recording>
+    </metadata>
+    <metadata xmlns="http://musicbrainz.org/ns/mmd-2.0#">
+        <recording id="5774486b-9734-4383-91cc-63e7cae96549">
+            <title>Assassin</title>
+            <length>388000</length>
+            <artist-credit>
+                <name-credit>
+                    <artist id="9c9f1380-2516-4fc9-a3e6-f9f61941d090">
+                        <name>Muse</name>
+                        <sort-name>Muse</sort-name>
+                        <disambiguation>UK rock band</disambiguation>
+                    </artist>
+                </name-credit>
+            </artist-credit>
+            <release-list count="1">
+                <release id="d1861eeb-2dea-461d-b3cd-60ab8bf4aeca">
+                    <title>2007-03-12: International Forum, Tokyo, Japan</title>
+                    <status>Bootleg</status>
+                    <quality>normal</quality>
+                    <text-representation>
+                        <language>eng</language>
+                        <script>Latn</script>
+                    </text-representation>
+                    <artist-credit>
+                        <name-credit>
+                            <artist id="9c9f1380-2516-4fc9-a3e6-f9f61941d090">
+                                <name>Muse</name>
+                                <sort-name>Muse</sort-name>
+                                <disambiguation>UK rock band</disambiguation>
+                            </artist>
+                        </name-credit>
+                    </artist-credit>
+                </release>
+            </release-list>
+        </recording>
+    </metadata> 
+    <metadata xmlns="http://musicbrainz.org/ns/mmd-2.0#">
+        <recording id="8e681625-457b-4496-b1dc-2b3249308891">
+            <title>Seven Nation Army</title>
+            <artist-credit>
+                <name-credit>
+                    <artist id="11ae9fbb-f3d7-4a47-936f-4c0a04d3b3b5">
+                        <name>The White Stripes</name>
+                        <sort-name>White Stripes, The</sort-name>
+                    </artist>
+                </name-credit>
+            </artist-credit>
+            <release-list count="1">
+                <release id="57dc34e6-94cf-42b4-a43f-fb23f23a03ab">
+                    <title>Seven Nation Army</title>
+                    <status>Official</status>
+                    <quality>normal</quality>
+                    <text-representation>
+                        <language>eng</language>
+                        <script>Latn</script>
+                    </text-representation>
+                    <artist-credit>
+                        <name-credit>
+                            <artist id="11ae9fbb-f3d7-4a47-936f-4c0a04d3b3b5">
+                                <name>The White Stripes</name>
+                                <sort-name>White Stripes, The</sort-name>
+                            </artist>
+                        </name-credit>
+                    </artist-credit>
+                    <date>2003-04-21</date>
+                    <country>GB</country>
+                    <barcode>634904116279</barcode>
+                </release>
+            </release-list>
+        </recording>
+    </metadata>
+    <metadata xmlns="http://musicbrainz.org/ns/mmd-2.0#">
+        <recording id="adc3c18c-e481-4349-9e86-38ffeea7cec0">
+            <title>B.Y.O.B.</title>
+            <artist-credit>
+                <name-credit>
+                    <artist id="cc0b7089-c08d-4c10-b6b0-873582c17fd6">
+                        <name>System of a Down</name>
+                        <sort-name>System of a Down</sort-name>
+                    </artist>
+                </name-credit>
+            </artist-credit>
+            <release-list count="1">
+                <release id="86bfcd9a-c121-4755-b9d5-b017c147e824">
+                    <title>B.Y.O.B.</title>
+                    <status>Official</status>
+                    <quality>normal</quality>
+                    <text-representation>
+                        <language>eng</language>
+                        <script>Latn</script>
+                    </text-representation>
+                    <artist-credit>
+                        <name-credit>
+                            <artist id="cc0b7089-c08d-4c10-b6b0-873582c17fd6">
+                                <name>System of a Down</name>
+                                <sort-name>System of a Down</sort-name>
+                            </artist>
+                        </name-credit>
+                    </artist-credit>
+                    <date>2005-05-02</date>
+                    <country>GB</country>
+                </release>
+            </release-list>
+        </recording>
+    </metadata>
+    <metadata xmlns="http://musicbrainz.org/ns/mmd-2.0#">
+        <recording id="f1eebb93-8c05-4990-95e0-4a79c310739b">
+            <title>Crow Killer</title>
+            <length>197000</length>
+            <artist-credit>
+                <name-credit>
+                    <artist id="9f336c50-ae4c-4440-bda7-958aa12bc15a">
+                        <name>Unearth</name>
+                        <sort-name>Unearth</sort-name>
+                    </artist>
+                </name-credit>
+            </artist-credit>
+            <release-list count="4">
+                <release id="44c105cc-d4ca-4671-81d1-cdd4bd0b4339">
+                    <title>The March</title>
+                    <quality>normal</quality>
+                    <text-representation>
+                        <script>Latn</script>
+                    </text-representation>
+                    <artist-credit>
+                        <name-credit>
+                            <artist id="9f336c50-ae4c-4440-bda7-958aa12bc15a">
+                                <name>Unearth</name>
+                                <sort-name>Unearth</sort-name>
+                            </artist>
+                        </name-credit>
+                    </artist-credit>
+                </release>
+                <release id="7d33caf8-91aa-4821-a8ea-4e27ad6b22ae">
+                    <title>The March</title>
+                    <status>Official</status>
+                    <quality>normal</quality>
+                    <text-representation>
+                        <language>eng</language>
+                        <script>Latn</script>
+                    </text-representation>
+                    <artist-credit>
+                        <name-credit>
+                            <artist id="9f336c50-ae4c-4440-bda7-958aa12bc15a">
+                                <name>Unearth</name>
+                                <sort-name>Unearth</sort-name>
+                            </artist>
+                        </name-credit>
+                    </artist-credit>
+                    <date>2008-10-10</date>
+                    <country>DE</country>
+                    <barcode>0039841469226</barcode>
+                </release>
+                <release id="ba721a9e-9352-30b2-a697-930cf8b7d215">
+                    <title>The March</title>
+                    <status>Official</status>
+                    <quality>normal</quality>
+                    <text-representation>
+                        <language>eng</language>
+                        <script>Latn</script>
+                    </text-representation>
+                    <artist-credit>
+                        <name-credit>
+                            <artist id="9f336c50-ae4c-4440-bda7-958aa12bc15a">
+                                <name>Unearth</name>
+                                <sort-name>Unearth</sort-name>
+                            </artist>
+                        </name-credit>
+                    </artist-credit>
+                    <date>2008-10-14</date>
+                    <country>US</country>
+                    <barcode>039841469226</barcode>
+                </release>
+                <release id="bd9a8c29-c689-39aa-a30e-a9592acffb95">
+                    <title>The March</title>
+                    <status>Official</status>
+                    <quality>normal</quality>
+                    <text-representation>
+                        <language>eng</language>
+                        <script>Latn</script>
+                    </text-representation>
+                    <artist-credit>
+                        <name-credit>
+                            <artist id="9f336c50-ae4c-4440-bda7-958aa12bc15a">
+                                <name>Unearth</name>
+                                <sort-name>Unearth</sort-name>
+                            </artist>
+                        </name-credit>
+                    </artist-credit>
+                    <date>2008-10-13</date>
+                    <country>GB</country>
+                    <barcode>0039841469226</barcode>
+                </release>
+            </release-list>
+        </recording>
+    </metadata>
+    <metadata xmlns="http://musicbrainz.org/ns/mmd-2.0#">
+        <recording id="bfab6c47-9151-495a-8180-2b2e58986ba3">
+            <title>Dashboard</title>
+            <length>247000</length>
+            <artist-credit>
+                <name-credit>
+                    <artist id="a96ac800-bfcb-412a-8a63-0a98df600700">
+                        <name>Modest Mouse</name>
+                        <sort-name>Modest Mouse</sort-name>
+                    </artist>
+                </name-credit>
+            </artist-credit>
+            <release-list count="1">
+                <release id="41e094ab-b54e-4479-b9e4-bde62066480c">
+                    <title>Dashboard / Education / Little Motel</title>
+                    <status>Promotion</status>
+                    <packaging>Jewel Case</packaging>
+                    <quality>normal</quality>
+                    <text-representation>
+                        <language>eng</language>
+                        <script>Latn</script>
+                    </text-representation>
+                    <artist-credit>
+                        <name-credit>
+                            <artist id="a96ac800-bfcb-412a-8a63-0a98df600700">
+                                <name>Modest Mouse</name>
+                                <sort-name>Modest Mouse</sort-name>
+                            </artist>
+                        </name-credit>
+                    </artist-credit>
+                    <date>2007-03-07</date>
+                    <country>US</country>
+                    <barcode>886970816229</barcode>
+                </release>
+            </release-list>
+        </recording>
+    </metadata>
+    <metadata xmlns="http://musicbrainz.org/ns/mmd-2.0#">
+        <recording id="662bb6ab-ebd3-40c1-ac3b-29be577c21a9">
+            <title>Don't Stop Me Now</title>
+            <length>267493</length>
+            <artist-credit>
+                <name-credit>
+                    <artist id="0383dadf-2a4e-4d10-a46a-e9e041da8eb3">
+                        <name>Queen</name>
+                        <sort-name>Queen</sort-name>
+                    </artist>
+                </name-credit>
+            </artist-credit>
+            <release-list count="6">
+                <release id="1ea82ba5-6a06-48bd-8db7-91761bc4f686">
+                    <title>Live Killers</title>
+                    <status>Official</status>
+                    <quality>normal</quality>
+                    <text-representation>
+                        <language>eng</language>
+                        <script>Latn</script>
+                    </text-representation>
+                    <artist-credit>
+                        <name-credit>
+                            <artist id="0383dadf-2a4e-4d10-a46a-e9e041da8eb3">
+                                <name>Queen</name>
+                                <sort-name>Queen</sort-name>
+                            </artist>
+                        </name-credit>
+                    </artist-credit>
+                    <date>1979-06-22</date>
+                    <country>GB</country>
+                </release>
+                <release id="7b8c0279-d77d-3be4-909e-92c7bb06f074">
+                    <title>Live Killers</title>
+                    <status>Official</status>
+                    <quality>normal</quality>
+                    <text-representation>
+                        <language>eng</language>
+                        <script>Latn</script>
+                    </text-representation>
+                    <artist-credit>
+                        <name-credit>
+                            <artist id="0383dadf-2a4e-4d10-a46a-e9e041da8eb3">
+                                <name>Queen</name>
+                                <sort-name>Queen</sort-name>
+                            </artist>
+                        </name-credit>
+                    </artist-credit>
+                    <date>1979-06-22</date>
+                    <country>XE</country>
+                </release>
+                <release id="86b5a0f7-a0e9-364b-b109-d25834cb7ef9">
+                    <title>Live Killers</title>
+                    <status>Official</status>
+                    <quality>normal</quality>
+                    <text-representation>
+                        <language>eng</language>
+                        <script>Latn</script>
+                    </text-representation>
+                    <artist-credit>
+                        <name-credit>
+                            <artist id="0383dadf-2a4e-4d10-a46a-e9e041da8eb3">
+                                <name>Queen</name>
+                                <sort-name>Queen</sort-name>
+                            </artist>
+                        </name-credit>
+                    </artist-credit>
+                    <date>2001</date>
+                    <country>US</country>
+                    <barcode>720616106629</barcode>
+                </release>
+                <release id="e11b292d-2ec8-3fc9-9173-31e5f99b7535">
+                    <title>Live Killers</title>
+                    <status>Official</status>
+                    <quality>normal</quality>
+                    <text-representation>
+                        <language>eng</language>
+                        <script>Latn</script>
+                    </text-representation>
+                    <artist-credit>
+                        <name-credit>
+                            <artist id="0383dadf-2a4e-4d10-a46a-e9e041da8eb3">
+                                <name>Queen</name>
+                                <sort-name>Queen</sort-name>
+                            </artist>
+                        </name-credit>
+                    </artist-credit>
+                    <date>1991-10-22</date>
+                    <country>US</country>
+                    <barcode>720616106629</barcode>
+                </release>
+                <release id="eb4b2f94-8cf6-3ada-aad7-c9b53ed9f5ad">
+                    <title>Live Killers</title>
+                    <status>Official</status>
+                    <quality>normal</quality>
+                    <text-representation>
+                        <language>eng</language>
+                        <script>Latn</script>
+                    </text-representation>
+                    <artist-credit>
+                        <name-credit>
+                            <artist id="0383dadf-2a4e-4d10-a46a-e9e041da8eb3">
+                                <name>Queen</name>
+                                <sort-name>Queen</sort-name>
+                            </artist>
+                        </name-credit>
+                    </artist-credit>
+                    <date>2001</date>
+                    <country>GB</country>
+                </release>
+                <release id="f9dffcec-f9ae-3320-a003-b87c1e995885">
+                    <title>Live Killers</title>
+                    <status>Official</status>
+                    <quality>normal</quality>
+                    <text-representation>
+                        <language>eng</language>
+                        <script>Latn</script>
+                    </text-representation>
+                    <artist-credit>
+                        <name-credit>
+                            <artist id="0383dadf-2a4e-4d10-a46a-e9e041da8eb3">
+                                <name>Queen</name>
+                                <sort-name>Queen</sort-name>
+                            </artist>
+                        </name-credit>
+                    </artist-credit>
+                    <country>GB</country>
+                    <barcode>077774621182</barcode>
+                </release>
+            </release-list>
+        </recording>
+    </metadata>
+    <metadata xmlns="http://musicbrainz.org/ns/mmd-2.0#">
+        <recording id="d19fb3ed-41d2-423b-9032-41c273e41bba">
+            <title>3's & 7's</title>
+            <length>214066</length>
+            <artist-credit>
+                <name-credit>
+                    <artist id="7dc8f5bd-9d0b-4087-9f73-dc164950bbd8">
+                        <name>Queens of the Stone Age</name>
+                        <sort-name>Queens of the Stone Age</sort-name>
+                    </artist>
+                </name-credit>
+            </artist-credit>
+            <release-list count="10">
+                <release id="0d3e9bfc-bdda-34a9-99b9-e636d6a7d4e5">
+                    <title>Era Vulgaris</title>
+                    <status>Official</status>
+                    <quality>normal</quality>
+                    <text-representation>
+                        <language>eng</language>
+                        <script>Latn</script>
+                    </text-representation>
+                    <artist-credit>
+                        <name-credit>
+                            <artist id="7dc8f5bd-9d0b-4087-9f73-dc164950bbd8">
+                                <name>Queens of the Stone Age</name>
+                                <sort-name>Queens of the Stone Age</sort-name>
+                            </artist>
+                        </name-credit>
+                    </artist-credit>
+                    <date>2008-03-17</date>
+                    <country>AU</country>
+                    <barcode>602517601352</barcode>
+                </release>
+                <release id="1d5295c9-aa2f-4a7e-8b7d-64ac485350f4">
+                    <title>Era Vulgaris</title>
+                    <status>Official</status>
+                    <quality>normal</quality>
+                    <text-representation>
+                        <language>eng</language>
+                        <script>Latn</script>
+                    </text-representation>
+                    <artist-credit>
+                        <name-credit>
+                            <artist id="7dc8f5bd-9d0b-4087-9f73-dc164950bbd8">
+                                <name>Queens of the Stone Age</name>
+                                <sort-name>Queens of the Stone Age</sort-name>
+                            </artist>
+                        </name-credit>
+                    </artist-credit>
+                    <date>2007-06-27</date>
+                    <country>JP</country>
+                    <barcode>4988005475039</barcode>
+                </release>
+                <release id="52ece59f-504e-407a-a4ac-e1fc8641cfec">
+                    <title>Era Vulgaris</title>
+                    <status>Official</status>
+                    <quality>normal</quality>
+                    <text-representation>
+                        <language>eng</language>
+                        <script>Latn</script>
+                    </text-representation>
+                    <artist-credit>
+                        <name-credit>
+                            <artist id="7dc8f5bd-9d0b-4087-9f73-dc164950bbd8">
+                                <name>Queens of the Stone Age</name>
+                                <sort-name>Queens of the Stone Age</sort-name>
+                            </artist>
+                        </name-credit>
+                    </artist-credit>
+                    <date>2007-06-18</date>
+                    <country>GB</country>
+                    <barcode>602517365261</barcode>
+                </release>
+                <release id="596f2acd-39b8-4bc3-adbe-97af851306d2">
+                    <title>Era Vulgaris</title>
+                    <status>Official</status>
+                    <packaging>Jewel Case</packaging>
+                    <quality>normal</quality>
+                    <text-representation>
+                        <language>eng</language>
+                        <script>Latn</script>
+                    </text-representation>
+                    <artist-credit>
+                        <name-credit>
+                            <artist id="7dc8f5bd-9d0b-4087-9f73-dc164950bbd8">
+                                <name>Queens of the Stone Age</name>
+                                <sort-name>Queens of the Stone Age</sort-name>
+                            </artist>
+                        </name-credit>
+                    </artist-credit>
+                    <date>2007-06-08</date>
+                    <country>DE</country>
+                    <barcode>602517353671</barcode>
+                </release>
+                <release id="59e5a781-a03d-3f65-8ca6-537a27ef37cc">
+                    <title>Era Vulgaris</title>
+                    <status>Official</status>
+                    <quality>normal</quality>
+                    <text-representation>
+                        <language>eng</language>
+                        <script>Latn</script>
+                    </text-representation>
+                    <artist-credit>
+                        <name-credit>
+                            <artist id="7dc8f5bd-9d0b-4087-9f73-dc164950bbd8">
+                                <name>Queens of the Stone Age</name>
+                                <sort-name>Queens of the Stone Age</sort-name>
+                            </artist>
+                        </name-credit>
+                    </artist-credit>
+                    <date>2007-06-12</date>
+                    <country>US</country>
+                    <barcode>602517346567</barcode>
+                </release>
+                <release id="5a4799d0-b5af-43df-b5a1-95fb19115584">
+                    <title>Era Vulgaris</title>
+                    <status>Official</status>
+                    <disambiguation>International iTunes version</disambiguation>
+                    <packaging>None</packaging>
+                    <quality>normal</quality>
+                    <text-representation>
+                        <language>eng</language>
+                        <script>Latn</script>
+                    </text-representation>
+                    <artist-credit>
+                        <name-credit>
+                            <artist id="7dc8f5bd-9d0b-4087-9f73-dc164950bbd8">
+                                <name>Queens of the Stone Age</name>
+                                <sort-name>Queens of the Stone Age</sort-name>
+                            </artist>
+                        </name-credit>
+                    </artist-credit>
+                    <date>2007-06</date>
+                    <country>US</country>
+                </release>
+                <release id="99be6bec-6ab1-4966-a2ea-bf2cba269b98">
+                    <title>Era Vulgaris</title>
+                    <status>Official</status>
+                    <disambiguation>Canadian limited tour edition</disambiguation>
+                    <quality>normal</quality>
+                    <text-representation>
+                        <language>eng</language>
+                        <script>Latn</script>
+                    </text-representation>
+                    <artist-credit>
+                        <name-credit>
+                            <artist id="7dc8f5bd-9d0b-4087-9f73-dc164950bbd8">
+                                <name>Queens of the Stone Age</name>
+                                <sort-name>Queens of the Stone Age</sort-name>
+                            </artist>
+                        </name-credit>
+                    </artist-credit>
+                    <date>2008-04-15</date>
+                    <country>CA</country>
+                    <barcode>602517669277</barcode>
+                </release>
+                <release id="a874cb5c-32e7-4b22-92b4-c9e7e3bdf3c6">
+                    <title>Big Shiny Tunes 12</title>
+                    <status>Official</status>
+                    <quality>normal</quality>
+                    <text-representation>
+                        <language>eng</language>
+                        <script>Latn</script>
+                    </text-representation>
+                    <artist-credit>
+                        <name-credit>
+                            <artist id="89ad4ac3-39f7-470e-963a-56509c546377">
+                                <name>Various Artists</name>
+                                <sort-name>Various Artists</sort-name>
+                                <disambiguation>add compilations to this artist</disambiguation>
+                            </artist>
+                        </name-credit>
+                    </artist-credit>
+                    <date>2007-11-20</date>
+                    <country>CA</country>
+                    <barcode>600753037447</barcode>
+                </release>
+                <release id="c0669f4f-b490-49b7-b4cd-40f9a4d84438">
+                    <title>Era Vulgaris</title>
+                    <status>Official</status>
+                    <disambiguation>exclusive Deutschland tour edition</disambiguation>
+                    <quality>normal</quality>
+                    <text-representation>
+                        <language>eng</language>
+                        <script>Latn</script>
+                    </text-representation>
+                    <artist-credit>
+                        <name-credit>
+                            <artist id="7dc8f5bd-9d0b-4087-9f73-dc164950bbd8">
+                                <name>Queens of the Stone Age</name>
+                                <sort-name>Queens of the Stone Age</sort-name>
+                            </artist>
+                        </name-credit>
+                    </artist-credit>
+                    <date>2007</date>
+                    <country>DE</country>
+                    <barcode>602517601352</barcode>
+                </release>
+                <release id="fabcfd3d-5acf-47a7-8550-32dc94bac550">
+                    <title>Era Vulgaris</title>
+                    <status>Official</status>
+                    <quality>normal</quality>
+                    <text-representation>
+                        <language>eng</language>
+                        <script>Latn</script>
+                    </text-representation>
+                    <artist-credit>
+                        <name-credit>
+                            <artist id="7dc8f5bd-9d0b-4087-9f73-dc164950bbd8">
+                                <name>Queens of the Stone Age</name>
+                                <sort-name>Queens of the Stone Age</sort-name>
+                            </artist>
+                        </name-credit>
+                    </artist-credit>
+                    <date>2007-06-12</date>
+                    <country>US</country>
+                    <barcode>602517352131</barcode>
+                </release>
+            </release-list>
+        </recording>
+    </metadata>
+    <metadata xmlns="http://musicbrainz.org/ns/mmd-2.0#">
+        <recording id="0d07e9f0-736b-4cfe-a41b-98c9c525d3da">
+            <title>My Will Be Done</title>
+            <length>217000</length>
+            <artist-credit>
+                <name-credit>
+                    <artist id="9f336c50-ae4c-4440-bda7-958aa12bc15a">
+                        <name>Unearth</name>
+                        <sort-name>Unearth</sort-name>
+                    </artist>
+                </name-credit>
+            </artist-credit>
+            <release-list count="5">
+                <release id="44c105cc-d4ca-4671-81d1-cdd4bd0b4339">
+                    <title>The March</title>
+                    <quality>normal</quality>
+                    <text-representation>
+                        <script>Latn</script>
+                    </text-representation>
+                    <artist-credit>
+                        <name-credit>
+                            <artist id="9f336c50-ae4c-4440-bda7-958aa12bc15a">
+                                <name>Unearth</name>
+                                <sort-name>Unearth</sort-name>
+                            </artist>
+                        </name-credit>
+                    </artist-credit>
+                </release>
+                <release id="7d33caf8-91aa-4821-a8ea-4e27ad6b22ae">
+                    <title>The March</title>
+                    <status>Official</status>
+                    <quality>normal</quality>
+                    <text-representation>
+                        <language>eng</language>
+                        <script>Latn</script>
+                    </text-representation>
+                    <artist-credit>
+                        <name-credit>
+                            <artist id="9f336c50-ae4c-4440-bda7-958aa12bc15a">
+                                <name>Unearth</name>
+                                <sort-name>Unearth</sort-name>
+                            </artist>
+                        </name-credit>
+                    </artist-credit>
+                    <date>2008-10-10</date>
+                    <country>DE</country>
+                    <barcode>0039841469226</barcode>
+                </release>
+                <release id="ba721a9e-9352-30b2-a697-930cf8b7d215">
+                    <title>The March</title>
+                    <status>Official</status>
+                    <quality>normal</quality>
+                    <text-representation>
+                        <language>eng</language>
+                        <script>Latn</script>
+                    </text-representation>
+                    <artist-credit>
+                        <name-credit>
+                            <artist id="9f336c50-ae4c-4440-bda7-958aa12bc15a">
+                                <name>Unearth</name>
+                                <sort-name>Unearth</sort-name>
+                            </artist>
+                        </name-credit>
+                    </artist-credit>
+                    <date>2008-10-14</date>
+                    <country>US</country>
+                    <barcode>039841469226</barcode>
+                </release>
+                <release id="bd9a8c29-c689-39aa-a30e-a9592acffb95">
+                    <title>The March</title>
+                    <status>Official</status>
+                    <quality>normal</quality>
+                    <text-representation>
+                        <language>eng</language>
+                        <script>Latn</script>
+                    </text-representation>
+                    <artist-credit>
+                        <name-credit>
+                            <artist id="9f336c50-ae4c-4440-bda7-958aa12bc15a">
+                                <name>Unearth</name>
+                                <sort-name>Unearth</sort-name>
+                            </artist>
+                        </name-credit>
+                    </artist-credit>
+                    <date>2008-10-13</date>
+                    <country>GB</country>
+                    <barcode>0039841469226</barcode>
+                </release>
+                <release id="e075ab50-8cf9-4161-8603-9b0c8bf4c00c">
+                    <title>Maximum Metal, Volume 133</title>
+                    <status>Promotion</status>
+                    <quality>normal</quality>
+                    <text-representation>
+                        <language>eng</language>
+                        <script>Latn</script>
+                    </text-representation>
+                    <artist-credit>
+                        <name-credit>
+                            <artist id="89ad4ac3-39f7-470e-963a-56509c546377">
+                                <name>Various Artists</name>
+                                <sort-name>Various Artists</sort-name>
+                                <disambiguation>add compilations to this artist</disambiguation>
+                            </artist>
+                        </name-credit>
+                    </artist-credit>
+                    <date>2008-10-15</date>
+                    <country>DE</country>
+                </release>
+            </release-list>
+        </recording>
+    </metadata>
+</song-library>
